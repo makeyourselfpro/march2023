@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 200;
+}
+  /* <!-- starts navigation bar  --> */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+  }
+  nav>input{
+    width: 750px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  nav>.input{
+  padding:14px 20px;
+  margin-right: -62px;
+  text-align: center;  
+  }
+  nav>button{
+width: 50px;
+height: 47px;
+margin-left: -62px;
+  }
+nav>div{
+  font-size: 30px;
+}
+  /* <!-- Ends navigation bar  --> */
+
+/* <!-- -------------------------------------------------- --> */
+
+  /* <!-- starts header  --> */
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(36, 36, 36);
+  color: aliceblue;  }
+  /* <!-- ul left  start--> */
+  header>ul{
+    display: flex;
+    justify-content: space-between;
+  }
+    header>ul>h4{
+      padding: 0 10px;
+    }
+  /* <!-- ul left end --> */
+
+  /* <!-- ul right  start--> */
+  /* <!-- ul right end --> */
+
+  /* <!-- end header  --> */
+/* <!-- -------------------------------------------------- --> */
+
+  /* <!-- main  start--> */
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main>.row1{
+  height: 680px;
+  background-color: aqua;
+  width: 90%;
+  background: url(), white ;
+}
+.main>.row1>div{
+  height: 40%;
+  background-color: aquamarine;
+}
+.main>.row1>.c2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 60%;
+}
+.main>.row1>.c2>div{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+padding: 10px;
+  height: 100%;
+  width: 24%;
+  background-color: blueviolet;
+}
+.main>.row1>.c2>.card1{
+
+}
+.main>.row1>.c2>.card1>
+  /* <!-- main  end--> */
+/* <!-- -------------------------------------------------- --> */
+
+  /* <!-- section starts  --> */
+  /* <!-- section ends  --> */
+
+/* <!-- -------------------------------------------------- --> */
+
+  /* <!-- footer starts  --> */
+  /* <!-- footer ends  --> */
+
+

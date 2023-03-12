@@ -1,0 +1,92 @@
+  .container{
+  margin: 130px 0;
+  }
+  .container>div{
+  background-color: aqua;
+  margin: 10px 0;
+  height: 350px;
+  }
+  .container>.row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .container>.row1>div {
+  background-color: antiquewhite;
+  height: 80%;
+  width: 50%;
+  border: 1px solid black;
+  margin:0 5px;
+  }
+  .trending-product{
+  text-align: center;
+  color: grey;
+  font-size: 25px;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .container>.row2{
+  display: flex;
+  justify-content: space-between;
+  }
+  .container>.row2>div{
+  background-color: aliceblue;
+  width: 25%;
+  margin: 5px;
+  }
+
+  .container>.row2>div>.image{
+  height: 80%;
+  background-color: gray;
+  width: 100%;
+  }
+  .container>.row3{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  }
+  .container>.row3>div{
+  width: 100%;
+  margin: 10px;
+  height: 100%;
+  }
+  .container>.row3>div>.image {
+  height: 60%;
+  background-color: gray;
+  width: 100%;
+  border-radius: 200px;
+  }
+  .footwear-product {
+  text-align: center;
+  color: grey;
+  font-size: 25px;
+  height: 5%;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  }
+
+    .container>.row4{
+      display: flex;
+    }
+  .container>.row4>div {
+  width: 100%;
+  margin: 0 10px;
+  height: 100%;
+  background-color: antiquewhite;
+  }
+    .container>.row4>.card>div{
+      height: 90%;
+      background-color: brown;
+    }
+
+        .container>.row4>.card>h1{
+  font-size: 20px;
+  text-align: center;
+        }
+
+
+
+        
